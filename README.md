@@ -1,4 +1,4 @@
-# artifactory-oss-deployment
+# Open Source Artifactory Deployment
 
 ## Deployment
 
