@@ -66,7 +66,7 @@ oc patch statefulset.apps/artifactory-oss-postgresql --patch '{"spec":{"template
 ### Create a route in order to access the Artifactory UI
 
 ```
-oc expose svc artifactory-oss-artifactory --name="artifactory" --hostname="artifactory.apps.tssc.rht-set.com"
+oc expose svc artifactory-oss-artifactory --name="artifactory" --hostname="artifactory.apps.ocp4.example.com"
 ```
 
 ### Change Default Password
